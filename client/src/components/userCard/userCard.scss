@@ -1,0 +1,30 @@
+
+.user-card{
+    width: 360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    .user-card-image{
+        display: flex;
+        justify-content: center;
+        width:80px;
+
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+
+    .user-card-info{
+        font-size: 12px;
+        width: 150px;
+        display: table-column; /* Or another layout mode for siblings */
+        border-collapse: collapse;
+    }
+
+    .dollar-button{
+        margin-top:10px;
+        width: fit-content;
+    }
+}

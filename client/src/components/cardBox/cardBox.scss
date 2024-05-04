@@ -1,0 +1,14 @@
+.cardmenu{
+    overflow-y: scroll; /* Enable horizontal scroll if content overflows */
+    grid-gap: 5px; /* Add spacing between cards (optional) */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .cards{
+        width: fit-content;
+        gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Allow cards to shrink/grow */
+    }
+}

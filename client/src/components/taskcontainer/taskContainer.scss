@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .wrapper{
+        line-height: 0.5;
+        flex:1;
+        margin-top: 0px;
+        width: 100%;
+        padding: 2px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .table{
+        width: 100%;
+        height: 480px;
+        overflow-y: scroll;
+    }
+
+    .no-project{
+        width: 400px;
+        height: auto;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50%;
+    }
+}
+

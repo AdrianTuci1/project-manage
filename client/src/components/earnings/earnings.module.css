@@ -1,0 +1,16 @@
+.root {
+    width: 100%;
+    padding: calc(var(--mantine-spacing-xl) * 1.5);
+  }
+
+  .edit{
+    margin-top: -30px;
+    display: flex;
+  }
+
+  .label {
+    font-family:
+      Greycliff CF,
+      var(--mantine-font-family);
+  }
+
